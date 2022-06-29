@@ -45,7 +45,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://codeyenum.github.io/base-apparel-coming-soon-master/)
+- Live Site URL: [Base Apparel coming soon page](https://codeyenum.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
