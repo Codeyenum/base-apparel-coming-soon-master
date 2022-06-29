@@ -103,11 +103,11 @@ input {
 }
 
 input:focus {
-   outline-color: var(--darkGrayishRed);
+   outline: none;
 }
 
 .hide {
-   display: none;
+   visibility: hidden;
 }
 
 button {
