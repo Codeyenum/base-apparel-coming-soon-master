@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --desaturatedRed: hsl(0, 36%, 70%);
+   --softRed: hsl(0, 93%, 68%);
+
+   /* Neutral */
+   --darkGrayishRed: hsl(0, 6%, 24%);
+
+   /* Gradients */
+   --firstLinearGradient: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+   --secondLinearGradient: linear-gradient(135deg, hsl(0, 74%, 74%), hsl(0, 80%, 86%));
+}
+
+html {
+   font-size: 16px;
+}
+
+body {
+   background: var(--firstLinearGradient);
+   font-family: 'Josefin Sans', sans-serif;
+   padding: 0 2rem;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+}
+
+header img {
+   width: 7rem;
+   margin: 2rem 0;
+}
+
+.hero_container {
+   position: relative;
+}
+
+.hero_img {
+   margin: 0 -2rem;
+   width: 100vw;
+}
+
+.text_content {
+   text-align: center;
+}
+
+.text_content h1 {
+   font-size: 2.6rem;
+   letter-spacing: .75rem;
+   margin: 3.5rem 0 1.5rem;
+}
+
+.text_content span {
+   font-weight: 300;
+   color: var(--desaturatedRed);
+}
+
+.text_content p {
+   color: var(--desaturatedRed);
+   font-size: .9rem;
+   line-height: 1.2rem;
+}
+
+form {
+   display: flex;
+   justify-content: center;
+
+   margin: 2rem 0;
+   position: relative;
+   width: 100%;
+}
+
+::placeholder {
+   color: var(--desaturatedRed);
+}
+
+input,
+button {
+   height: 2.75rem;
+   border: 1px solid var(--desaturatedRed);
+   border-radius: 1.35rem;
+}
+
+input {
+   background-color: transparent;
+   margin-bottom: 2.2rem;
+   padding: 0 1.75rem;
+   width: 100%;
+}
+
+button {
+   background: var(--secondLinearGradient);
+   border: none;
+   box-shadow: 0px 15px 22px hsla(0, 36%, 70%, 0.541);
+   position: absolute;
+   right: 0;
+   width: 3.75rem;
+}
+
+.attribution {
+   font-size: 12px;
+   text-align: center;
+}
+
+.attribution a {
+   color: var(--softRed);
+   text-decoration: none;
+}
+
+.attribution a:hover {
+   color: var(--desaturatedRed);
+}
