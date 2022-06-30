@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-mkbtl16Mok)
 - Live Site URL: [Base Apparel coming soon page](https://codeyenum.github.io/base-apparel-coming-soon-master/)
 
 ## My process
