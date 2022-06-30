@@ -100,9 +100,7 @@ button {
 input {
    background-color: transparent;
    padding: 0 1.75rem;
-   position: relative;
    width: 100%;
-   z-index: -1;
 }
 
 input:focus {
@@ -118,10 +116,10 @@ button {
    background: var(--secondLinearGradient);
    border: none;
    box-shadow: 0px 15px 22px hsla(0, 36%, 70%, 0.541);
+   opacity: .9;
    position: absolute;
    right: 0;
    width: 3.75rem;
-   z-index: 1;
 }
 
 button:hover {
