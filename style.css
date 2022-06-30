@@ -127,7 +127,6 @@ button {
 button:hover {
    box-shadow: 0px 15px 25px hsl(0, 55%, 72%);
    cursor: pointer;
-   opacity: .8;
    right: -3%;
    transition: 0.3s ease-in-out;
 }
