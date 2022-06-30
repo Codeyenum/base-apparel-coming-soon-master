@@ -116,7 +116,6 @@ button {
    background: var(--secondLinearGradient);
    border: none;
    box-shadow: 0px 15px 22px hsla(0, 36%, 70%, 0.541);
-   opacity: .9;
    position: absolute;
    right: 0;
    width: 3.75rem;
@@ -125,6 +124,7 @@ button {
 button:hover {
    box-shadow: 0px 15px 25px hsl(0, 55%, 72%);
    cursor: pointer;
+   opacity: .9;
    right: -3%;
    transition: 0.3s ease-in-out;
 }
