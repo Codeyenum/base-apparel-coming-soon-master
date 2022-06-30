@@ -100,7 +100,9 @@ button {
 input {
    background-color: transparent;
    padding: 0 1.75rem;
+   position: relative;
    width: 100%;
+   z-index: -1;
 }
 
 input:focus {
