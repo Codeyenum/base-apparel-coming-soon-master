@@ -26,6 +26,7 @@ body {
    background: var(--firstLinearGradient);
    font-family: 'Josefin Sans', sans-serif;
    padding: 0 2rem;
+   position: relative;
 }
 
 main {
@@ -33,13 +34,13 @@ main {
    flex-direction: column;
 }
 
-header img {
+.logo_img {
    width: 7rem;
    margin: 2rem 0;
 }
 
-.hero_container {
-   position: relative;
+.desk-hero_img {
+   display: none;
 }
 
 .hero_img {
@@ -76,28 +77,28 @@ form {
    margin: 2rem 0;
 }
 
-form div{
-   display: flex;   
+form div {
+   display: flex;
    align-items: center;
-   
+
    position: relative;
    width: 100%;
 }
 
 ::placeholder {
-   color:hsla(0, 36%, 70%, 0.4);
+   color: hsla(0, 36%, 70%, 0.7);
    font-family: 'Josefin Sans', sans-serif;
 }
 
 input,
 button {
    height: 2.75rem;
-   border: 1px solid hsla(0, 36%, 70%, 0.4);
+   border: 1px solid hsla(0, 36%, 70%, 0.7);
    border-radius: 1.35rem;
 }
 
 input {
-   background-color: transparent;   
+   background-color: transparent;
    padding: 0 1.75rem;
    width: 100%;
 }
@@ -131,7 +132,7 @@ button:hover {
 .error_icon {
    position: absolute;
    right: 4.5rem;
-   width: 1rem;  
+   width: 1rem;
 }
 
 small {
@@ -151,4 +152,81 @@ small {
 
 .attribution a:hover {
    color: var(--desaturatedRed);
+}
+
+@media screen and (min-width: 1020px) {
+
+   .logo_img {
+      width: 8.5rem;
+      margin: 3.25rem 0;
+   }
+
+   .hero_img {
+      display: none;
+   }
+
+   .desk-hero_img {
+      display: block;
+      position: absolute;
+      right: 0;
+      width: 45%;
+      height: 100%;
+   }
+
+   body {
+      padding: 0;
+      min-height: 100vh;
+   }
+
+   main {
+      width: 55%;
+      padding: 0 10rem;
+   }
+
+   .main_div {
+      width: 90%;
+   }
+
+
+   .text_content {
+      text-align: left;
+   }
+
+   .text_content h1 {
+      font-size: 3.5rem;
+      letter-spacing: 1.1rem;
+      line-height: 3.8rem;
+      margin: 3.5rem 0 1.5rem;
+   }
+
+   .text_content p {
+      font-size: .9rem;
+      line-height: 1.6rem;
+   }
+
+   ::placeholder {
+      font-size: .85rem;
+   }
+
+   input,
+   button {
+      height: 3.2rem;
+      border-radius: 2rem;
+   }
+
+   button {
+      width: 5.5rem;
+   }
+
+   footer {
+      width: 55%;
+   }
+
+   .attribution {
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      transform: translate(-25%, 0);
+      text-align: center;
+   }
 }
